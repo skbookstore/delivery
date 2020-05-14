@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: delivery-svc
+  labels:
+    app: delivery
+spec:
+  ports:
+    - port: 8086
+      targetPort: 8080
+  selector:
+    app: delivery
