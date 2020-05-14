@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: delivery
-          image: ccteam4acr.azurecr.io/stock
+          image: ccteam4acr.azurecr.io/delivery
           ports:
             - containerPort: 8086
           resources:
